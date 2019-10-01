@@ -1,0 +1,23 @@
+form { 
+    margin: 5% auto;
+    width: 70%;
+    text-align: center;
+}
+
+
+.cards-container {
+    margin: 2em;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .mail {
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    display: none; }

@@ -1,0 +1,53 @@
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="general.css">
+
+<script src="curriculum.js"></script>
+
+
+	<title> Faiza's curriculum</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="aboutContainer" class="navbar-brand" href="./index.html">About</a>
+        <a id="contactsContainer" class="navbar-brand" href="./timeline.html">Timeline</a>
+          </nav>
+
+<div class="formContainer">
+          <form id="contactForm" target="_top" method="post" enctype="text/plain">
+    
+
+            <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label> Name </label>
+                        <input name="name" class="form-control" oninvalid="this.setCustomValidity('Enter Your Name Here')"
+                            oninput="this.setCustomValidity('')" required></input>
+                    </div>
+                
+                        <div class="form-group col-md-6">
+                            <label> Company </label>
+                            <input name="company " class="form-control" oninvalid="this.setCustomValidity('Enter Your Company Name Here')"
+                                oninput="this.setCustomValidity('')" rows="5" required></textarea>
+                        </div>
+                    </div>
+    <div class="form-row">
+        <div class="form-group col-md-12">
+            <label> Send me a message! </label>
+            <textarea name="message " class="form-control" oninvalid="this.setCustomValidity('Enter Your Message Here')"
+                oninput="this.setCustomValidity('')" rows="5" required></textarea>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-12">
+            <button type="reset" class="btn btn-block btn-secondary mt-3">Reset</button>
+            <button type="submit" class="btn btn-block btn-primary mt-3" > Submit</button>
+        </div>
+    </div>
+</form>
+<a class="mail" href="mailto:someone@example.com&amp?Subject=Hello%20again&amp" target="_top" style="display: none;">Send Mail</a>
+
+</div>
+</body>
